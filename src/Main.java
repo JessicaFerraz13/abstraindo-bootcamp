@@ -59,6 +59,7 @@ public class Main {
         System.out.println("Conteúdos inscritos: " + devMaria.getConteudosInscritos());
 
         devMaria.progredir();
+        devMaria.progredir();
         System.out.println("Maria Progrediu!");
 
         System.out.println("XP: " + devMaria.calcularTotalXp());
