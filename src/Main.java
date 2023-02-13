@@ -48,6 +48,8 @@ public class Main {
         devJoao.progredir();
         System.out.println("João Progrediu!");
 
+        System.out.println("XP: " + devJoao.calcularTotalXp());
+
         System.out.println("Conteúdos inscritos: " + devJoao.getConteudosInscritos());
 
         System.out.println("Conteúdos concluídos: " + devJoao.getConteudosConcluidos());
@@ -58,6 +60,8 @@ public class Main {
 
         devMaria.progredir();
         System.out.println("Maria Progrediu!");
+
+        System.out.println("XP: " + devMaria.calcularTotalXp());
 
         System.out.println("Conteúdos inscritos: " + devMaria.getConteudosInscritos());
 
